@@ -39,6 +39,9 @@ animation: body  7s;
 
 }
 
+.sr-only .current {
+  background-color: red;
+}
 
 
 
