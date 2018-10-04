@@ -39,9 +39,13 @@ animation: body  7s;
 
 }
 
-.sr-only .current {
-  background-color: red;
+.current {
+  background-color: lightgrey;
+  opacity: 0.4;
 }
+
+
+
 
 
 
