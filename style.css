@@ -45,10 +45,6 @@ animation: body  7s;
 }
 
 
-
-
-
-
 .main-banner {
   width: 87.5%;
   over-flow: hidden;
@@ -65,12 +61,13 @@ animation: body  7s;
 
 }
 
-
 h1 {
+  position: relative;
+  top: -150px;
   color: white;
   opacity: 1;
   font-size: 4em;
-  line-height: 0.75em;
+  /* line-height: 0.75em; */
 
 }
 
