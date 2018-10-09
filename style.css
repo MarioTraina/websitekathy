@@ -67,25 +67,8 @@ animation: body  7s;
   color: white;
   opacity: 1;
   font-size: 4em;
-  /* line-height: 0.75em; */
 
 }
-
-#about-text {
-  font-size: 15px;
-  line-height: 25px;
-  width: 500px;
-  margin-left: 500px;
-  margin-top: 100px;
-}
-
-#about-img {
-  padding-left: 100px;
-  padding-bottom: 600px;
-}
-
-
-
 
 
 .bottom-banner {
@@ -117,15 +100,15 @@ animation: body  7s;
 }
 
 
-#cat {
-background: url("http://www.artbykathyconroy.com/uploads/3/4/1/6/34165033/pet-16.jpeg");
-background-repeat: no-repeat;
+ #cat {
+  background: url("http://www.artbykathyconroy.com/uploads/3/4/1/6/34165033/pet-16.jpeg");
+  background-repeat: no-repeat;
 
  }
 
  #lion {
    background: url("http://www.artbykathyconroy.com/uploads/3/4/1/6/34165033/editor/p1010108.jpg?1497814124");
-  background-repeat: no-repeat;
+   background-repeat: no-repeat;
  }
 
  #horse {
@@ -135,8 +118,8 @@ background-repeat: no-repeat;
  }
 
  #bird {
-background: url("http://www.artbykathyconroy.com/uploads/3/4/1/6/34165033/published/kestrel-6x6.jpg?1521408601");
-background-repeat: no-repeat;
+   background: url("http://www.artbykathyconroy.com/uploads/3/4/1/6/34165033/published/kestrel-6x6.jpg?1521408601");
+   background-repeat: no-repeat;
 
 }
 
@@ -159,7 +142,39 @@ span {
   opacity: 0.4;
 }
 
-/*media queries*/
+
+/* About page starts here.*/
+
+.about-text  {
+  font-size: 15px;
+  line-height: 23px;
+  margin-right: 80px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+}
+
+
+.img-kathy {
+  width: 300px;
+  margin-top: 30px;
+  margin-left: 78px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  float: left;
+}
+
+#abt-pge {
+  margin-left: 80px;
+  margin-right: 80px;
+  border-bottom: 2px solid;
+}
+
+/* about page ends here */
+
+
+/* media queries start here */
 
 @media screen and (max-width: 1200px){
   .navbar{
@@ -170,8 +185,9 @@ span {
 }
 .bottom-banner{
   width: 100%;
-}
  }
+}
+
 
 
 
